@@ -31,23 +31,6 @@ const redirects = [
   },
 ]
 
-const redirectsRuleFn = (srcPath) => {
-  // This build redirects from "to" to "from". So filter by the destination page, and replace "to" with "from".
-  //
-  // Docs will feed all rendered pages urls into this function.
-  if (
-    srcPath.includes(
-      'pipeline-components-and-applications/loaders-storage-targets/snowplow-rdb-loader'
-    )
-  )
-    return srcPath.replace(
-      'pipeline-components-and-applications/loaders-storage-targets/snowplow-rdb-loader',
-      'pipeline-components-and-applications/loaders-storage-targets/snowplow-rdb-loader-3-0-0'
-    )
-  else return undefined
-}
-
 module.exports = {
-  redirects: redirects,
-  redirectsRuleFn: redirectsRuleFn,
+  redirects,
 }
