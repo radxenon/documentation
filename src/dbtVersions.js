@@ -90,6 +90,20 @@ export const dbtVersions = {
                 "dbt-labs/dbt_utils": ">=1.0.0 <2.0.0",
                 "snowplow/snowplow_utils": ">=0.15.0 <0.16.0"
             }
+        },
+        "0.6.1": {
+            "dbtversion": ">=1.5.0 <2.0.0",
+            "packages": {
+                "dbt-labs/dbt_utils": ">=1.0.0 <2.0.0",
+                "snowplow/snowplow_utils": ">=0.15.0 <0.16.0"
+            }
+        },
+        "0.7.0": {
+            "dbtversion": ">=1.5.0 <2.0.0",
+            "packages": {
+                "dbt-labs/dbt_utils": ">=1.0.0 <2.0.0",
+                "snowplow/snowplow_utils": ">=0.15.0 <0.16.0"
+            }
         }
     },
     "snowplow/snowplow_fractribution": {
